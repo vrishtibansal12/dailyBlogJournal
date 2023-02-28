@@ -1,0 +1,17 @@
+<% include partials/header %>
+
+<div class="post-page">
+  <h1><%= thisTitle %></h1>
+  <p class="content"><%= thisContent %></p>
+  <p class="content time-stamp">Posted on: <%= post.date%></p>
+</div>
+
+<div class="delete">
+  <form action="/delete" method="post">
+    <button type="submit" class="delete-button" name="deletedPost" value="<%= post._id %>" onChange="this.form.submit()"
+      style="float: right;">
+      DELETE</button>
+  </form>
+</div>
+
+<% include partials/footer %>
