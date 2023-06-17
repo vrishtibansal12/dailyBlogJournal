@@ -1,7 +1,7 @@
 //jshint esversion:6
 require('dotenv').config();
 
-ATLAS_URI="mongodb+srv://dbVrishti:1qazxsw2@cluster0.jzoef.mongodb.net/BLOG_DB"
+ATLAS_URI="mongodb+srv://dbVrishti:UXJtdgH4JhrrakHn@cluster0.jzoef.mongodb.net/BLOG_DB"
 CLIENT_ID="842552669306-62378t8pcscjgj9e6cu83s3ep2c7kllc.apps.googleusercontent.com"
 CLIENT_SECRET="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"
 SECRET="apple"
