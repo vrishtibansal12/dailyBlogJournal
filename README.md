@@ -2,7 +2,7 @@
 
 A simple blog built using Node.js, passport.js and ejs.
 
-You can check out the website on: https://dailyy-journal-blog.herokuapp.com/
+You can check out the website on: https://dailyblogjournal.onrender.com/
 ## Install
 
 ```bash

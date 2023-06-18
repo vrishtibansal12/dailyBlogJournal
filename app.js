@@ -92,7 +92,7 @@ passport.use(
       clientSecret: CLIENT_SECRET,
       callbackURL:
         // "https://protected-hamlet-37960.herokuapp.com/auth/google/dailyjournal",
-        "https://dailyy-journal-blog.herokuapp.com/auth/google/dailyjournal",
+        "https://dailyblogjournal.onrender.com/auth/google/dailyjournal",
       userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo",
     },
     function (accessToken, refreshToken, profile, cb) {
